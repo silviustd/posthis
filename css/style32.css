@@ -8,7 +8,8 @@ float: left;
 position:absolute;
 position:fixed !important;
 bottom: 0px;
-width:800px;
+/*width:800px;*/
+background:  transparent;
 }
 
 #text_e32 img{
