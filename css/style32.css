@@ -9,7 +9,6 @@ position:absolute;
 position:fixed !important;
 bottom: 0px;
 /*width:800px;*/
-background:  transparent;
 }
 
 #text_e32 img{
@@ -353,7 +352,9 @@ input {
 
 #pte32_logo {
 	float: left;
-	margin: 5px 2px 5px 2px;
+	/*margin: 5px 2px 5px 3px;*/
+	margin-left:3px;
+	margin-right:2px;
 }
 
-#pte32_logo img{margin:0}
+/*#pte32_logo img{margin:0}*/
