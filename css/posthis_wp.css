@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background: #fff;
+	padding: 40px 0 20px 0;
+	font-family: arial, helvetica, "lucida grande", verdana, sans-serif;
+	font-size: 12px;
+	color: #333;
+}
+
+.container{margin-left:auto;margin-right:auto;width:960px}
+.grid{display:inline;float:left;margin-left:10px;margin-right:10px}
+.alpha{margin-left:0}
+.omega{margin-right:0}
+
+.container .grid{width:540px}
+.container .prefix{padding-left:80px}
+.container .suffix{padding-right:80px}
+
+
+a { text-decoration: none; color: #105CB6; }
+a:hover { text-decoration: underline; color: #17438d; }
+a.logo {
+	
+	font-size: 12px;
+	color: #5e5e5e;
+	text-align: right;
+	line-height: 22px;
+}
+
+h2 {
+	font-size: 21px;
+	font-weight: normal;
+	line-height: 50px;
+	color:#ee1c25;
+	font-weight:bold;
+	text-align: left;
+}
+p {font-size: 2em;}
+.http{ padding-top:10px;}
+
+small { font-size: .5em; }
+small em {
+	margin-left: 57px;
+}
+
+.box {
+	background:url(http://columnasoft.com/posthis/images/posthis_wp_bg.jpg) no-repeat;
+	padding: 30px;
+	height:270px
+}
+.box h2 {
+	background:url(http://columnasoft.com/posthis/images/posthis_wp_arow.png) right no-repeat;
+	margin: 0px 0 50px 0;
+	padding-top: 10px;
+}
+.lgbtn {
+	font-size: 16px;
+	padding: 5px 16px;
+}
+
+#wp { background: #fff; font-size: 1.1em; margin: 0 5px; padding: 2px; border: none; }

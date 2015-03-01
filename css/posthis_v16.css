@@ -1,0 +1,1270 @@
+@charset "utf-8";
+/* CSS Document */
+
+#logo_v {
+float: left;
+height:32px;
+width:32px;
+margin: 0px 0px 0px 0px;
+}
+
+#headerDiv{
+	position:absolute;
+
+}
+#headerDiv, #contentDiv {
+position:fixed !important;
+float: left;
+width: 42px;
+}
+
+#plus_v32{
+	float: left;
+	font-size:12px;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	margin: 0px 0px 0px 0px;}
+
+#plus_v32 img{
+	border:none;
+}
+
+#text_v32 img{
+	border:none;
+}
+
+#text_v32 {
+	float: left;
+	font-size:12px;
+	text-align:center;
+	vertical-align : middle;
+	font-family:Arial, Helvetica, sans-serif;
+	margin: 14px 0px 0px 0px;
+}
+
+#text_v32 a{
+	margin:0;
+}
+
+#chkb_v32 img{
+	border:none;
+}
+
+#chkb_v32 {
+	float: left;
+	font-size:12px;
+	text-align:center;
+	vertical-align : middle;
+	font-family:Arial, Helvetica, sans-serif;
+	margin: 5px 0px 0px 0px;
+}
+
+#chkb_v32 a{
+	margin:0;
+}
+
+#titleText img{
+	border:none;
+}
+
+#titleText {
+	float: left;
+	font-size:12px;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	margin: 0px 0px 0px 0px;
+}
+
+#titleText a{
+	margin:0;
+}
+
+#myHeader img.more_less {
+	margin-bottom:10px;
+}
+
+#contentDiv {
+	
+	position:absolute;
+	top:194px;
+	width:600px;
+	
+}
+#myContent {
+}
+#headerDiv img, #contentDiv img {
+	float: left;
+	margin: 5px 5px 0px 5px;
+}
+#headerDiv a:hover {
+color: #FFFFFF;
+}
+
+#titleText_H, #post {
+	float: left;
+	display:block;
+	font-family:Arial, Helvetica, sans-serif;
+	margin: 7px 0px 0px 0px;
+}
+
+#titleText_H32 {
+	float: left;
+	display:block;
+	font-family:Arial, Helvetica, sans-serif;
+	margin: 17px 1px 0px 1px;
+}
+
+#post32{
+	float: left;
+	display:block;
+	font-family:Arial, Helvetica, sans-serif;
+	margin: 15px 1px 0px 1px;
+}
+
+.more_less{
+	margin-bottom:10px;
+}
+input {
+	margin: 10px 5px 0 5px;
+	
+}
+
+/* class 32px */
+
+.facebook_grey_v32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/facebook-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.facebook_v32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/facebook.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.twitter_grey_v32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/tw-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.twitter_v32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/tw.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.linkedin_grey_v32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/linkedin-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.linkedin_v32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/linkedin.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+
+.google_grey_v32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/google-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.google_v32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/google.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.pinterest_grey_v32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/pinterest-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.pinterest_v32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/pinterest.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.digg_grey_v32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/digg-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.digg_v32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/digg.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.reddit_grey_v32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/reddit-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.reddit_v32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/reddit.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+
+.stumble_grey_v32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/stumble-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.stumble_v32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/stumble.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.technorati_grey_v32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/technorati-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.technorati_v32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/technorati.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.delicious_grey_v32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/delicious-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.delicious_v32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/delicious.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.tumblr_grey_v32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/tumblr-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.tumblr_v32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/tumblr.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.wordpress_grey_v32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/wordpress-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.wordpress_v32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/wordpress.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.blogger_grey_v32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/blogger-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.blogger_v32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/blogger.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.email_grey_v32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/email-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.email_v32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/email.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.print_grey_v32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/print-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.print_v32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/print.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.socl_grey_v32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/socl-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.socl_v32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/socl.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.logo{
+	background:url('http://columnasoft.com/posthis/images/logo4.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 0px;
+}
+.logo img{
+	border:none;
+}
+
+/* class 17px */
+
+/* class 17px */
+
+.facebook_grey_p17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/facebook-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.facebook_p17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/facebook.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.twitter_grey_p17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/tw-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.twitter_p17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/tw.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.linkedin_grey_p17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/linkedin-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.linkedin_p17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/linkedin.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.google_grey_p17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/google-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.google_p17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/google.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.pinterest_grey_p17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/pinterest-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.pinterest_p17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/pinterest.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.digg_grey_p17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/digg-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.digg_p17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/digg.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.reddit_grey_p17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/reddit-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.reddit_p17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/reddit.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.stumble_grey_p17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/stumble-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.stumble_p17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/stumble.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.technorati_grey_p17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/technorati-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.technorati_p17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/technorati.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+
+.delicious_grey_p17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/delicious-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.delicious_p17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/delicious.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.tumblr_grey_p17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/tumblr-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.tumblr_p17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/tumblr.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.wordpress_grey_p17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/wordpress-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.wordpress_p17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/wordpress.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.blogger_grey_p17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/blogger-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.blogger_p17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/blogger.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+
+.email_grey_p17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/email-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.email_p17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/email.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.print_grey_p17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/print-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.print_p17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/print.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.socl_grey_p17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/socl-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.socl_p17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/socl.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.bottom{
+	margin-top:80px;
+        border-top:#666 thin solid;
+}
+
+.bottom img{
+	float:right;
+	margin: 3px 8px 3px 8px;
+}
+
+/* class h 17px */
+
+
+.facebook_grey_h17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/facebook-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 1px 0px 1px;
+}
+
+.facebook_h17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/facebook.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 1px 0px 1px;
+}
+
+.twitter_grey_h17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/tw-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 1px 0px 1px;
+}
+
+.twitter_h17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/tw.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 1px 0px 1px;
+}
+
+.linkedin_grey_h17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/linkedin-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 1px 0px 1px;
+}
+
+.linkedin_h17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/linkedin.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 1px 0px 1px;
+}
+
+.google_grey_h17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/google-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 1px 0px 1px;
+}
+
+.google_h17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/google.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 1px 0px 1px;
+}
+
+.pinterest_grey_h17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/pinterest-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 1px 0px 1px;
+}
+
+.pinterest_h17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/pinterest.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 1px 0px 1px;
+}
+
+.digg_grey_h17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/digg-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 1px 0px 1px;
+}
+
+
+.digg_h17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/digg.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 1px 0px 1px;
+}
+
+.reddit_grey_h17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/reddit-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 1px 0px 1px;
+}
+
+.reddit_h17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/reddit.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 1px 0px 1px;
+}
+
+.stumble_grey_h17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/stumble-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 1px 0px 1px;
+}
+
+.stumble_h17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/stumble.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 1px 0px 1px;
+}
+
+.technorati_grey_h17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/technorati-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 1px 0px 1px;
+}
+
+.technorati_h17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/technorati.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 1px 0px 1px;
+}
+
+.delicious_grey_h17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/delicious-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 1px 0px 1px;
+}
+
+.delicious_h17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/delicious.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 1px 0px 1px;
+}
+
+.tumblr_grey_h17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/tumblr-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 1px 0px 1px;
+}
+
+.tumblr_h17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/tumblr.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 1px 0px 1px;
+}
+
+.wordpress_grey_h17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/wordpress-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 1px 0px 1px;
+}
+
+.wordpress_h17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/wordpress.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 1px 0px 1px;
+}
+
+.blogger_grey_h17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/blogger-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 1px 0px 1px;
+}
+
+.blogger_h17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/blogger.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 1px 0px 1px;
+}
+
+.email_grey_h17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/email-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 1px 0px 1px;
+}
+
+.email_h17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/email.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 1px 0px 1px;
+}
+
+.print_grey_h17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/print-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 1px 0px 1px;
+}
+
+.print_h17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/print.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 1px 0px 1px;
+}
+
+.socl_grey_h17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/socl-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 1px 0px 1px;
+}
+
+.socl_h17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/socl.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 1px 0px 1px;
+}
+
+.bottom_sm{
+	margin-top:60px;
+	border-top:#666 thin solid;
+}
+
+.bottom_sm32{
+	margin-top:80px;
+	border-top:#666 thin solid;
+}
+
+.bottom_sm img{
+	float:right;
+	margin: 3px 8px 3px 8px;
+}
+
+.bottom_sm32 img{
+	float:right;
+	margin: 3px 8px 3px 8px;
+}
+
+
+/* class sm32px */
+
+.facebook_grey_h32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/facebook-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.facebook_h32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/facebook.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+
+.twitter_grey_h32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/tw-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.twitter_h32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/tw.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+
+.linkedin_grey_h32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/linkedin-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.linkedin_h32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/linkedin.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+
+.google_grey_h32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/google-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.google_h32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/google.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.pinterest_grey_h32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/pinterest-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.pinterest_h32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/pinterest.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.digg_grey_h32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/digg-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.digg_h32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/digg.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+
+.reddit_grey_h32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/reddit-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.reddit_h32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/reddit.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.stumble_grey_h32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/stumble-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.stumble_h32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/stumble.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.technorati_grey_h32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/technorati-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.technorati_h32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/technorati.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+
+.delicious_grey_h32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/delicious-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.delicious_h32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/delicious.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.tumblr_grey_h32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/tumblr-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.tumblr_h32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/tumblr.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.wordpress_grey_h32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/wordpress-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.wordpress_h32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/wordpress.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.blogger_grey_h32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/blogger-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.blogger_h32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/blogger.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.email_grey_h32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/email-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.email_h32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/email.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.print_grey_h32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/print-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.print_h32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/print.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.socl_grey_h32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/socl-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+.socl_h32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/socl.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 0px 0px 5px;
+}
+
+#one17{
+	display:none;
+	position:absolute;
+	width: 120px;
+	height: 90px; 
+	background-color:#F5F5F5; 
+	margin-top:30px;
+   -webkit-box-shadow: rgba(0,0,0,0.05) -1px 1px 1px, inset white 0 0 1px;
+   -moz-box-shadow: rgba(0,0,0,0.05) -1px 1px 1px, inset white 0 0 1px;
+   box-shadow: rgba(0,0,0,0.05) -1px 1px 1px, inset white 0 0 1px;
+   -webkit-border-radius:5px 5px 5px 5px;
+   -moz-border-radius:5px 5px 5px5px;
+   border-radius:5px 5px 5px 5px;
+   border-bottom: 1px solid #ccc;
+   border-left: 1px solid #ccc;
+}
+#one32{
+ display:none;
+ position:absolute; 
+ width: 190px; 
+ height: 110px; 
+ background-color:#F5F5F5; 
+ margin-top:40px;
+ -webkit-box-shadow: rgba(0,0,0,0.05) -1px 1px 1px, inset white 0 0 1px;
+ -moz-box-shadow: rgba(0,0,0,0.05) -1px 1px 1px, inset white 0 0 1px;
+ box-shadow: rgba(0,0,0,0.05) -1px 1px 1px, inset white 0 0 1px;
+ -webkit-border-radius:5px 5px 5px 5px;
+   -moz-border-radius:5px 5px 5px5px;
+   border-radius:5px 5px 5px 5px;
+   border-bottom: 1px solid #ccc;
+   border-left: 1px solid #ccc;
+}
+
+#contentDiv {
+	position:absolute;
+	background:none;
+
+}
+
+#container_sm {
+	position:absolute;
+	background-color: #999;
+}
+
+#headerDiv{
+	 z-index: 1;
+}
+
+#contentDiv{
+	 z-index: 2;
+	
+}

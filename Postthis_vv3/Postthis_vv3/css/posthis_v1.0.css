@@ -1,0 +1,555 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#headerDiv, #contentDiv {
+float: left;
+width: 42px;
+}
+
+
+#titleText {
+	float: left;
+	font-size:12px;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#titleText a{
+	margin:0;
+}
+
+#myHeader img.more_less {
+	margin-bottom:10px;
+}
+#headerDiv {
+	background-color: #F5F5F5;
+}
+#contentDiv {
+	background-color: #F5F5F5;
+}
+#myContent {
+}
+#headerDiv img, #contentDiv img {
+	float: left;
+	margin: 5px 5px 0px 5px;
+}
+#headerDiv a:hover {
+color: #FFFFFF;
+}
+
+.more_less{
+	margin-bottom:10px;
+}
+input {
+	margin: 10px 5px 0 5px;
+	
+}
+
+/* class 32px */
+
+.facebook_grey{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/facebook-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.facebook{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/facebook.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.twitter_grey{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/tw-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.twitter{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/tw.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.linkedin_grey{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/linkedin-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.linkedin{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/linkedin.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+
+.google_grey{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/google-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.google{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/google.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.pinterest_grey{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/pinterest-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.pinterest{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/pinterest.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.digg_grey{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/digg-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.digg{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/digg.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.reddit_grey{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/reddit-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.reddit{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/reddit.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+
+.stumble_grey{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/stumble-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.stumble{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/stumble.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.technorati_grey{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/technorati-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.technorati{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/technorati.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.delicious_grey{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/delicious-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.delicious{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/delicious.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.tumblr_grey{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/tumblr-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.tumblr{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/tumblr.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.wordpress_grey{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/wordpress-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.wordpress{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/wordpress.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.blogger_grey{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/blogger-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.blogger{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/blogger.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.email_grey{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/email-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.email{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/email.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.print_grey{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/print-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.print{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/print.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.logo{
+	background:url('http://columnasoft.com/posthis/images/logo4.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+/* class 17px */
+
+/* class 17px */
+
+.facebook17_grey{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/facebook-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.facebook17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/facebook.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.twitter17_grey{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/tw-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.twitter17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/tw.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.linkedin17_grey{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/linkedin-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.linkedin17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/linkedin.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.google17_grey{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/google-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.google17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/google.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.pinterest17_grey{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/pinterest-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.pinterest17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/pinterest.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.digg17_grey{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/digg-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.digg17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/digg.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.reddit17_grey{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/reddit-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.reddit17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/reddit.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.stumble17_grey{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/stumble-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.stumble17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/stumble.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.technorati17_grey{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/technorati-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.technorati17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/technorati.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+
+.delicious17_grey{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/delicious-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.delicious17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/delicious.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.tumblr17_grey{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/tumblr-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.tumblr17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/tumblr.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.wordpress17_grey{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/wordpress-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.wordpress17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/wordpress.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.blogger17_grey{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/blogger-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.blogger17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/blogger.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+
+.email17_grey{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/email-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.email17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/email.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.print17_grey{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/print-grey.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.print17{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons17px/print.png') no-repeat;
+	float: left;
+	height:17px;
+	width:17px;
+	margin: 7px 5px 0px 5px;
+}
+
+.bottom{
+	margin-top:80px;
+        border-top:#666 thin solid;
+}
+
+.bottom img{
+	float:right;
+	margin: 3px 8px 3px 8px;
+}

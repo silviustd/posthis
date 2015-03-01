@@ -1,0 +1,73 @@
+<script type="text/javascript" src="js/cs_postthis1.0.js"></script>
+<script type="text/javascript">
+
+window.onload = qs;
+
+function qs() {
+
+ var querys = window.location.search ;
+
+ var txt = document.getElementById("ip_url")
+ txt.value = querys ;
+
+}
+
+// Cross-browser implementation of element.addEventListener()
+
+function listen(evnt, elem, func) {
+    if (elem.addEventListener)  // W3C DOM
+        elem.addEventListener(evnt,func,false);
+    else if (elem.attachEvent) { // IE DOM
+         var r = elem.attachEvent("on"+evnt, func);
+    return r;
+    }
+    else window.alert('I\'m sorry Dave, I\'m afraid I can\'t do that.');
+}
+
+// Use: listen("event name", elem, func);
+
+function postthis_wp(){
+
+ //var blog_a = document.getElementsByName("blog_url").value;
+
+ var blog_a = document.getElementById("iblog_url").value;
+
+ if (blog_a == null || blog_a.length == 0){
+
+	alert("Please enter your Wordpress blog URL");
+	document.getElementById('iblog_url').focus();
+
+	return;
+ }
+
+ if (blog_a.indexOf("http://") == -1){
+
+  blog_a = "http://" + blog_a;
+
+ }
+
+ if (blog_a.lastIndexOf(blog_a.lentgh -1 , "/") == -1){
+
+  blog_a = blog_a + "/";
+
+ }
+
+ //blog_a = cs_escape(blog_a,'wp_post','height=420,width=560, left=0, top=0,resizable=yes,scrollbars=yes,toolbar=yes,status=yes');
+
+
+ blog_a = blog_a + "wp-admin/press-this.php" + document.getElementById("ip_url").value ;
+ 
+ window.close();
+
+ window.open(blog_a,'wp_post','height=520,width=630, left=0, top=0,resizable=yes,scrollbars=yes,toolbar=yes,status=yes');
+ 
+
+}
+
+
+</script>
+<p> Please enter your wordpress blog URL </p>
+<p><input type="text" value="columnasoft.com/blog" id="iblog_url"></p>
+<input type="hidden" value="p_url" id="ip_url">
+
+<p><input type="button" name="bpostthis" value="Post this" onclick="postthis_wp()">

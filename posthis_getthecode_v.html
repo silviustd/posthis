@@ -1,0 +1,245 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Posthis - get the code</title>
+
+<link href="css/posthis.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="pt_getcode.js"></script>
+
+</head>
+
+<body>
+
+<script type="text/javascript">
+
+<!--Code for h17-->
+
+<!--END Code for h17-->
+<!--Code for h32-->
+var secondtext="Code for H32"
+<!--END Code for h32-->
+<!--Code for V17-->
+var thirdtext="Code for V17"
+<!--END Code for V17-->
+<!--Code for V32-->
+var forthtext="Code for V32"
+<!--END Code for V32-->
+
+function writetext(what){
+document.getElementById('textarea').innerHTML=''+what+'';
+}
+function notext(){
+document.getElementById('textarea').innerHTML='';
+}
+//-->
+</script>
+
+<div class="CompStatement_posthis">
+<div class="leftgreybox">
+<div class="col">
+<div class="radio">
+<input id="where1" type="radio" name="where" value="h17" checked="checked"  onclick="var div1 = document.getElementById('textarea');writetext(firsttext)" />
+</div>
+<label class="labels">Horizontal 17px</label>
+</div>
+<div class="col">
+<div class="radio">
+<input id="where1" type="radio" name="where" value="h32" onclick="var div1 = document.getElementById('textarea');writetext(secondtext)" />
+</div>
+<label class="labels">Horizontal 32px</label>
+</div>
+<div class="col">
+<div class="radio">
+<input id="where1" type="radio" name="where" value="v17"  onclick="var div1 = document.getElementById('textarea');writetext(thirdtext)" />
+</div>
+<label class="labels">Vertical 17px</label>
+</div>
+<div class="col">
+<div class="radio">
+<input id="where1" type="radio" name="where" value="v32"  onclick="var div1 = document.getElementById('textarea');writetext(forthtext)" />
+</div>
+<label class="labels">Vertical 32px</label>
+</div>
+</div><!--end leftgreybox-->
+<div class="right">
+<textarea class="updateCode" name="textarea" cols="1" rows="5" id="textarea" wrap="on" style="width:630px; height:200px;" onclick="select()">&lt;!-- AddThis Button BEGIN --&gt;
+
+&lt;!-- AddThis Button END --&gt;</textarea>
+</div>
+<!--end right-->
+</div><!--end CompStatement_posthis-->
+<textarea id="ta2" class="updateCode" name="textarea1" cols="1" rows="5" id="textarea" wrap="on" style="width:630px; height:200px;" onclick="select()">
+</textarea>
+<p/>
+<div id="ptd" style="border:1px solid;border-radius:25px;"> 
+<!-- 
+<link id="posthis" href="http://columnasoft.com/posthis/css/style32.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript"> var img_ps='e32px1';</script>
+<script type="text/javascript" src="http://columnasoft.com/posthis/js/posthis.js"></script>
+
+-->
+<a href="http://columnasoft.com/posthis/posthis_e32.html" target="f_pt">Preview</a>
+</div>
+
+<iframe id="f_pt" name="f_pt" frameborder="1">
+
+</iframe>
+<a href="http://columnasoft.com/posthis/posthis_e32.html" target="f_pt2">Preview s</a>
+<iframe id="f_pt2" name="f_pt2" frameborder="1">
+
+</iframe>
+
+<input type="button" value="Change Div innerHTML" onclick="changeDivHTML()" />
+
+</body>
+
+<script type="text/javascript">
+//$('#ta2').load('posthis_e32.html #posthis');
+
+//var vfile = "posthis_e32.txt";
+//var vfile = "http://columnasoft.com/posthis/js/posthis_e32.txt"
+var vfile = "http://columnasoft.com/posthis/posthis_e32.html";
+
+
+var file = (function func1() {
+var result;
+$.ajax({
+type: "GET",
+url: vfile,
+dataType: "text",
+async: false,
+success: function(data){
+result = data;
+}
+});
+return result;
+})();
+
+
+document.getElementById('ta2').value = file;
+
+<!-- -->
+
+
+
+var vl = file.split('\n');
+//var sHTML='';
+
+//for (var i=0;i<vl.length-1,i++){ }
+
+//sHTML= sHTML + "'";
+
+sHTML = sHTML + '<!-- posthis Start --> ';
+sHTML = sHTML + '<link href="http://columnasoft.com/posthis/css/style32.css" rel="stylesheet" type="text/css" />';
+sHTML = sHTML + '<scr'+'ipt type="text/javascript"> var img_ps="e32px1";</scr'+'ipt>';
+sHTML = sHTML + '<scr'+'ipt type="text/javascript" src="http://columnasoft.com/posthis/js/posthis.js"></scr'+'ipt>';
+
+sHTML = sHTML + '<!-- posthis End -->';
+
+var vHTML = "'" + file.toString() + "'" ;
+
+
+var sHTML='';
+
+sHTML= sHTML + 'document.write(' + "'" ;
+
+sHTML = sHTML + '<scr'+'ipt type="text/javascr' + 'ipt">' ;
+
+sHTML = sHTML +  "'" + ');';
+
+sHTML = sHTML + 'document.write(' + "'" ;
+
+sHTML = sHTML + file;
+
+sHTML = sHTML +  "'" + ');';
+
+sHTML= sHTML + 'document.write(' + "'" ;
+sHTML = sHTML + '</scr'+'ipt>';
+sHTML = sHTML +  "'" + ');';
+
+
+
+document.getElementById('ptd').innerHTML = sHTML;
+
+//document.write(sHTML);
+
+//$('#f_pt').load('http://columnasoft.com/index.html');
+
+ //$(document).ready(function(){
+  //     $('#ptd').load('http://columnasoft.com/posthis/posthis_e32.html');
+    //});
+
+//$('#ptd').append('document.write('+ sHTML + ');');
+
+
+//$.get('http://columnasoft.com/index.html', function(data) {
+
+//$.get('http://columnasoft.com/posthis/posthis_e32.html', function(data) {
+  //$('.result').html(data);
+  //$('#f_pt').html(data);
+  //alert('Load was performed.'); });
+
+
+function changeDivHTML(ss){
+var sHTML='';
+
+sHTML= sHTML + 'document.write(' + "'" ;
+
+sHTML = sHTML + '<scr'+'ipt type="text/javascr' + 'ipt">' ;
+
+sHTML = sHTML +  "'" + ');';
+
+sHTML= sHTML + 'document.write(' + "'" ;
+
+sHTML = sHTML + '<!-- posthis Start --> ';
+
+sHTML = sHTML +  "'" + ');';
+
+sHTML= sHTML + 'document.write(' + "'" ;
+
+sHTML = sHTML + '<link href="http://columnasoft.com/posthis/css/style32.css" rel="stylesheet" type="text/css" />';
+
+sHTML = sHTML +  "'" + ');';
+
+sHTML= sHTML +  'document.write(' + "'" ;
+
+sHTML = sHTML + '<scr'+'ipt type="text/javascript"> var img_ps="e32px1";</scr'+'ipt>';
+
+sHTML = sHTML +  "'" + ');';
+
+sHTML= sHTML +  'document.write(' + "'" ;
+
+sHTML = sHTML + '<scr'+'ipt type="text/javascript" src="http://columnasoft.com/posthis/js/posthis.js"></scr'+'ipt>';
+
+sHTML = sHTML +  "'" + ');';
+
+sHTML=  sHTML + 'document.write(' + "'" ;
+
+sHTML = sHTML + '<!-- posthis End -->';
+
+sHTML = sHTML +  "'" + ');';
+
+sHTML= sHTML + 'document.write(' + "'" ;
+sHTML = sHTML + '</scr'+'ipt>';
+sHTML = sHTML +  "'" + ');';
+
+
+document.getElementById('ptd').innerHTML=sHTML;
+
+var cartip=document.createElement("div"); //Dynamically create tooltip element
+cartip.setAttribute("id", "ptd2");
+cartip.setAttribute("style", "border:3px solid;border-radius:25px;");
+document.body.appendChild(cartip);
+
+//ajaxpage('http://columnasoft.com/index.html', 'ptd2');
+
+document.getElementById('f_pt2').src="";
+
+}
+
+
+</script>
+</html>

@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#headerDiv, #contentDiv {
+float: left;
+width: 42px;
+}
+#titleText {
+	float: left;
+	font-size:12px;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#titleText a{
+	margin:0;
+}
+
+#myHeader img.more_less {
+	margin-bottom:10px;
+}
+#headerDiv {
+	background-color: #F5F5F5;
+}
+#contentDiv {
+	background-color: #F5F5F5;
+}
+#myContent {
+}
+#headerDiv img, #contentDiv img {
+	float: left;
+	margin: 5px 5px 0px 5px;
+}
+#headerDiv a:hover {
+color: #FFFFFF;
+}
+
+.more_less{
+	margin-bottom:10px;
+}
+input {
+	margin: 10px 5px 0 5px;
+	
+}
+
+
+
+.facebook{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/facebook-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.twitter{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/tw-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.linkedin{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/linkedin-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.google{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/google-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.pinterest{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/pinterest-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.digg{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/digg-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.reddit{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/reddit-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.stumble{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/stumble-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.technorati{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/technorati-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.delicious{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/delicious-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.tumblr{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/tumblr-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.wordpress{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/wordpress-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.blogger{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/blogger-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.email{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/email-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}
+
+.print{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/print-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 5px 0px 5px;
+}

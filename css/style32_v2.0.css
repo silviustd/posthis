@@ -1,0 +1,325 @@
+@charset "utf-8";
+/* CSS Document */
+
+img{border:none}
+
+#headerDiv, #contentDiv {
+float: bottom;
+position:relative;
+position:fixed !important;
+width:auto;
+}
+
+
+
+#titleText {
+	float: left;
+	font-size:12px;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	margin: 5px 1px 5px 1px;
+}
+
+
+#titleText a{
+	margin:0;
+}
+
+#myHeader img.more_less {
+	margin-bottom:10px;
+}
+#headerDiv {
+	background-color: #F5F5F5;
+	height:42px;
+	padding-left:4px;
+}
+#contentDiv {
+	background-color: #F5F5F5;
+}
+#myContent {
+}
+#headerDiv img, #contentDiv img {
+	float: left;
+	margin: 5px 1px 5px 1px;
+}
+#headerDiv a:hover {
+color: #FFFFFF;
+}
+
+.more_less{
+	margin-bottom:10px;
+}
+input {
+	margin: 10px 5px 0 5px;
+	
+}
+
+
+/* class 32px */
+
+
+.facebook_grey_e32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/facebook-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 1px 5px 1px;
+}
+
+
+.facebook_e32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/facebook.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 1px 5px 1px;
+}
+
+.twitter_grey_e32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/tw-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 1px 5px 1px;
+}
+
+.twitter_e32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/tw.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 1px 5px 1px;
+}
+
+.linkedin_grey_e32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/linkedin-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 1px 5px 1px;
+}
+
+.linkedin_e32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/linkedin.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 1px 5px 1px;
+}
+
+.google_grey_e32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/google-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 1px 5px 1px;
+}
+
+.google_e32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/google.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 1px 5px 1px;
+}
+
+.pinterest_grey_e32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/pinterest-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 1px 5px 1px;
+}
+
+.pinterest_e32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/pinterest.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 1px 5px 1px;
+}
+
+.digg_grey_e32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/digg-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 1px 5px 1px;
+}
+
+.digg_e32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/digg.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 1px 5px 1px;
+}
+
+
+.reddit_grey_e32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/reddit-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 1px 5px 1px;
+}
+
+.reddit_e32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/reddit.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 1px 5px 1px;
+}
+
+.stumble_grey_e32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/stumble-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 1px 5px 1px;
+}
+
+.stumble_e32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/stumble.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 1px 5px 1px;
+}
+
+.technorati_grey_e32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/technorati-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 1px 5px 1px;
+}
+
+.technorati_e32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/technorati.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 1px 5px 1px;
+}
+
+.delicious_grey_e32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/delicious-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 1px 5px 1px;
+}
+
+.delicious_e32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/delicious.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 1px 5px 1px;
+}
+
+.tumblr_grey_e32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/tumblr-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 1px 5px 1px;
+}
+
+.tumblr_e32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/tumblr.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 1px 5px 1px;
+}
+
+
+.wordpress_grey_e32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/wordpress-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 1px 5px 1px;
+}
+
+.wordpress_e32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/wordpress.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 1px 5px 1px;
+}
+
+.blogger_grey_e32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/blogger-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 1px 5px 1px;
+}
+
+.blogger_e32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/blogger.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 1px 5px 1px;
+}
+
+.email_grey_e32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/email-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 1px 5px 1px;
+}
+
+.email_e32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/email.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 1px 5px 1px;
+}
+
+.print_grey_e32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/print-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 1px 5px 1px;
+}
+
+.print_e32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/print.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 1px 5px 1px;
+}
+
+.socl_grey_e32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/socl-grey.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 1px 5px 1px;
+}
+
+.socl_e32{
+	background:url('http://columnasoft.com/posthis/images/sntw/icons32px/socl.png') no-repeat;
+	float: left;
+	height:32px;
+	width:32px;
+	margin: 5px 1px 5px 1px;
+}
+
+#logo {
+	float: left;
+	margin: 5px 2px 5px 2px;
+}
+
+#logo img{margin:0}
