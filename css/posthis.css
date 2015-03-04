@@ -195,10 +195,16 @@ width: 42px;
 }
 #myContent {
 }
-#headerDiv img, #contentDiv img {
+#headerDiv img {
 	float: left;
 	margin: 5px 5px 0px 5px;
 }
+
+#contentDiv img {
+	float: left;
+	margin: 5px 1px 0px 5px;
+}
+
 #headerDiv a:hover {
 color: #FFFFFF;
 }
@@ -221,7 +227,7 @@ color: #FFFFFF;
 	float: left;
 	display:block;
 	font-family:Arial, Helvetica, sans-serif;
-	margin: 15px 1px 0px 1px;
+	margin: 5px 1px 0px 1px;
 }
 
 .more_less{
