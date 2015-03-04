@@ -304,7 +304,7 @@ document.write('<div id="headerDiv_H32" style="width=1200 height=42;">');
      document.write('<div id=3 class="linkedin_grey_h32" onclick="switch_css_(3)"></div>');
      document.write('<div id=4 class="google_grey_h32" onclick="switch_css_(4)"></div>');
      document.write('<div id=9 class="pinterest_grey_h32" onclick="switch_css_(9)"></div>');
-     document.write('<div id="titleText_H32"><a href="javascript:toggle4(&#39;one32&#39;,&#39;post32&#39;);"><img src="http://columnasoft.com/posthis/images/plus_sm.png" width="14" height="12" /></a></div>');
+     document.write('<div id="titleText_H32"><a href="javascript:toggle4(&#39;one32&#39;,&#39;post32&#39;);"><img id="sp" src="http://columnasoft.com/posthis/images/plus_sm.png" width="14" height="12" /></a></div>');
      document.write('<div id="post32" style="width=76 height=42;">');
      document.write('<img id="post_i" src="' + spath + '" onclick="cs_postthis()"/></div>');
 document.write('<div id="one32">');
@@ -858,27 +858,23 @@ function toggle4(showHideDiv, switchTextDiv) {
 
 	var text = document.getElementById(switchTextDiv);
 
+	var symbolp = document.getElementById("sp");
+
 	if(ele.style.display == "none") {
 
     		ele.style.display = "block";
 
 			text.innerHTML = '' ;
-
 			document.getElementById("post32").style.display = "none";
-
-			
-
+			symbolp.src = 'http://columnasoft.com/posthis/images/minus14-12.png';			
 	}
 
 	else {
 
 		ele.style.display = "none";
-
 		document.getElementById("post32").style.display = "block";
-
-		//text.innerHTML = '<img style="border: none;" src="http://columnasoft.com/posthis/images/posthis17t_white2.png"/>';
 		text.innerHTML = '<img style="border: none;" src="' + spath +'" onclick="cs_postthis()" />';
-
+		symbolp.src = 'http://columnasoft.com/posthis/images/plus_sm.png';
 	}
 
 }
